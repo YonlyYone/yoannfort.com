@@ -1,0 +1,34 @@
+{
+	"links": [
+		{
+			"name": "Profile",
+			"url": "/#profile",
+			"icon": "fa-regular fa-user"
+		},
+		{
+			"name": "Resume",
+			"url": "/#resume",
+			"icon": "fa-regular fa-rectangle-list"
+		},
+		{
+			"name": "Works",
+			"url": "/#works",
+			"icon": "fa-solid fa-briefcase"
+		},
+		{
+			"name": "Blog",
+			"url": "/#blog",
+			"icon": "fa-regular fa-newspaper"
+		},
+		{
+			"name": "Products",
+			"url": "/#products",
+			"icon": "fa-solid fa-terminal"
+		},
+		{
+			"name": "Contact",
+			"url": "/#contact",
+			"icon": "fa-solid fa-paper-plane"
+		}
+	]
+}
