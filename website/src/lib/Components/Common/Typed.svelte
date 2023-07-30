@@ -4,8 +4,9 @@
 
 	const dispatch = createEventDispatcher();
 
-	export let strings :string[] = ['Hello World!'];
-	export let stringsElement:string|Element|undefined = undefined;
+	export let className: string = "typed";
+	export let strings: string[] = ['Hello World!'];
+	export let stringsElement: string | Element | undefined = undefined;
 	export let typeSpeed = 50;
 	export let startDelay = 20;
 	export let backSpeed = 50;
@@ -20,12 +21,12 @@
 	export let showCursor = false;
 	export let cursorChar = '|';
 	export let autoInsertCss = true;
-	export let attr: string|undefined = undefined;
+	export let attr: string | undefined = undefined;
 	export let bindInputFocusEvents = false;
 	export let contentType = 'html';
 
 	onMount(() => {
-		let el = document.querySelector('.typing');
+		let el = document.querySelector('.' + className + ' .typing');
 
 		const typed = new Typed(el, {
 			strings,
@@ -60,6 +61,6 @@
 	});
 </script>
 
-<div>
+<div class={className}>
 	<slot />
 </div>

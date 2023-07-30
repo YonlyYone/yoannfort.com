@@ -1,10 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Card from "$lib/Components/Common/Card.svelte";
+	import ProfileCard from "$lib/Components/ProfileCard.svelte";
+	import ResumeCard from "$lib/Components/ResumeCard.svelte";
+</script>
 
+<ProfileCard/>
+<div class="content-container">
+	<ResumeCard/>
+	<Card id="works"></Card>
+	<Card id="blog"></Card>
+	<Card id="products"></Card>
+	<Card id="contact"></Card>
+</div>
 
-<section id="profile"></section>
-<section id="resume"></section>
-<section id="works"></section>
-<section id="blog"></section>
-<section id="products"></section>
-<section id="contact"></section>
+<style>
+	.content-container{
+		max-height: 75vh;
+        overflow: scroll;
+	}
+</style>

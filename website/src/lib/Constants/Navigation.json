@@ -2,33 +2,55 @@
 	"links": [
 		{
 			"name": "Profile",
-			"url": "/#profile",
+			"url": "#profile",
 			"icon": "fa-regular fa-user"
 		},
 		{
 			"name": "Resume",
-			"url": "/#resume",
+			"url": "#resume",
 			"icon": "fa-regular fa-rectangle-list"
 		},
 		{
 			"name": "Works",
-			"url": "/#works",
+			"url": "#works",
 			"icon": "fa-solid fa-briefcase"
 		},
 		{
 			"name": "Blog",
-			"url": "/#blog",
+			"url": "#blog",
 			"icon": "fa-regular fa-newspaper"
 		},
 		{
 			"name": "Products",
-			"url": "/#products",
+			"url": "#products",
 			"icon": "fa-solid fa-terminal"
 		},
 		{
 			"name": "Contact",
-			"url": "/#contact",
+			"url": "#contact",
 			"icon": "fa-solid fa-paper-plane"
+		}
+	],
+	"socials": [
+		{
+			"name": "Linkedin",
+			"url": "http://www.google.com/",
+			"icon": "fa-regular fa-user"
+		},
+		{
+			"name": "Twitter",
+			"url": "http://www.google.com/",
+			"icon": "fa-regular fa-rectangle-list"
+		},
+		{
+			"name": "Instagram",
+			"url": "http://www.google.com/",
+			"icon": "fa-solid fa-briefcase"
+		},
+		{
+			"name": "Github",
+			"url": "http://www.google.com/",
+			"icon": "fa-regular fa-newspaper"
 		}
 	]
 }

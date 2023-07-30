@@ -1,0 +1,26 @@
+    :root {
+        --primary-color: brown;
+        --secondary-color: brown;
+        --tertiary-color: brown;
+        ---color: brown;
+        --main-bg-color: brown;
+    }
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: lightgray;
+    }
+
+    .content-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 90%;
+    }
